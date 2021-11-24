@@ -7,42 +7,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+
     <script src="./js/script.js" defer></script>
 </head>
+<!-- https://nattone.github.io/instructions/slider/slider.html -->
 
 <body>
-    <ul class="list">
-        <li class="item">
-            <img src="./img/kot1.jpg" alt="img1" class="image">
-            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis velit optio
-                obcaecati tempora esse quasi voluptates autem, reiciendis blanditiis accusantium impedit dolor
-                assumenda, eos quidem ea excepturi! Impedit, deserunt.</p>
-        </li>
-        <li class="item">
-            <img src="./img/kot2.jpg" alt="img2" class="image">
-            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis velit optio
-                obcaecati tempora esse quasi voluptates autem, reiciendis blanditiis accusantium impedit dolor
-                assumenda, eos quidem ea excepturi! Impedit, deserunt.</p>
-        </li>
-        <li class="item">
-            <img src="./img/kot3.jpg" alt="img3" class="image">
-            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis velit optio
-                obcaecati tempora esse quasi voluptates autem, reiciendis blanditiis accusantium impedit dolor
-                assumenda, eos quidem ea excepturi! Impedit, deserunt.</p>
-        </li>
-        <li class="item">
-            <img src="./img/kot4.jpg" alt="img4" class="image">
-            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis velit optio
-                obcaecati tempora esse quasi voluptates autem, reiciendis blanditiis accusantium impedit dolor
-                assumenda, eos quidem ea excepturi! Impedit, deserunt.</p>
-        </li>
-        <li class="item">
-            <img src="./img/kot5.jpg" alt="img5" class="image">
-            <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis velit optio
-                obcaecati tempora esse quasi voluptates autem, reiciendis blanditiis accusantium impedit dolor
-                assumenda, eos quidem ea excepturi! Impedit, deserunt.</p>
-        </li>
-    </ul>
+    <div class="container">
+        <div class="slider">
+            <ul class="list">
+                <li class="item">
+                    <img src="./img/kot1.jpg" alt="img1" class="image">
+                    <h2 class="title"></h2>
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis
+                        velit
+                        optio
+                        obcaecati tempora esse quasi voluptates autem, reiciendis blanditiis accusantium impedit dolor
+                        assumenda, eos quidem ea excepturi! Impedit, deserunt.</p>
+                    <a href="" class="link"></a>
+                </li>
+                <li class="item">
+                    <img src="./img/kot2.jpg" alt="img2" class="image">
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis
+                        velit
+                        optio
+                        obcaecati tempora esse quasi voluptates autem, reiciendis blanditiis accusantium impedit dolor
+                        assumenda, eos quidem ea excepturi! Impedit, deserunt.</p>
+                </li>
+                <li class="item">
+                    <img src="./img/kot3.jpg" alt="img3" class="image">
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis
+                        velit
+                        optio
+                        obcaecati tempora esse quasi voluptates autem, reiciendis blanditiis accusantium impedit dolor
+                        assumenda, eos quidem ea excepturi! Impedit, deserunt.</p>
+                </li>
+                <li class="item">
+                    <img src="./img/kot4.jpg" alt="img4" class="image">
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis
+                        velit
+                        optio
+                        obcaecati tempora esse quasi voluptates autem, reiciendis blanditiis accusantium impedit dolor
+                        assumenda, eos quidem ea excepturi! Impedit, deserunt.</p>
+                </li>
+                <li class="item">
+                    <img src="./img/kot5.jpg" alt="img5" class="image">
+                    <p class="text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia perspiciatis
+                        velit
+                        optio
+                        obcaecati tempora esse quasi voluptates autem, reiciendis blanditiis accusantium impedit dolor
+                        assumenda, eos quidem ea excepturi! Impedit, deserunt.</p>
+                </li>
+            </ul>
+            <!-- <div class="nav">
+                <button class="nav nav-left"></button>
+                <button class="nav nav-right"></button>
+            </div> -->
+            <div class="navigation">
+                <label class="label">
+                    <input type="radio" name="r" id="r1" checked>
+                </label>
+                <label class="label">
+                    <input type="radio" name="r" id="r2">
+                </label>
+                <label class="label">
+                    <input type="radio" name="r" id="r3">
+                </label>
+                <label class="label">
+                    <input type="radio" name="r" id="r4">
+                </label>
+                <label class="label">
+                    <input type="radio" name="r" id="r5">
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>
