@@ -11,6 +11,10 @@ ul {
     padding: 40px 20px;
     margin: 0 auto;
 }
+.title {
+    margin-bottom: 20px;
+    text-align: center;
+}
 .slider {
     margin-bottom: 40px;
     position: relative;
@@ -26,9 +30,36 @@ ul {
 .slider .slick-next {
     position: absolute;
     cursor: pointer;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    opacity: 1;
+    transition: background-color .3s ease;
+}
+.slider .slick-prev:hover,
+.slider .slick-next:hover {
+    background-color: #74849d;
 }
 .slider .slick-dots {
-
+    display: flex !important;
+}
+.slider .slick-dots li {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 100%;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.slider .slick-dots li:hover {
+    background-color: #74849d;
+}
+.slider .slick-dots button {
+    border: none;
+    background-color: transparent;
 }
 
 /*Стилизация*/
@@ -40,15 +71,15 @@ ul {
     transform: translateY(-50%);
 }
 .slider.single-item .slick-prev {
-    left: 0;
+    left: 10px;
 }
 .slider.single-item .slick-next {
-    right: 0;
+    right: 10px;
 }
 
 /* Slider 2 */
 .slider.multiple-items {
-    padding-bottom: 40px;
+    padding-bottom: 100px;
 }
 .slider.multiple-items .slick-prev,
 .slider.multiple-items .slick-next {

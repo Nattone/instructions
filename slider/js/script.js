@@ -9,9 +9,9 @@ $(document).ready(function () {
         slidesToScroll: 1
     });
 
-    $('.center').slick({
+    $('.center-items').slick({
         centerMode: true,
-        slidesToShow: 3,
+        slidesToShow: 3
     });
 
 
