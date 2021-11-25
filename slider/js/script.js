@@ -11,7 +11,10 @@ $(document).ready(function () {
 
     $('.center-items').slick({
         centerMode: true,
-        slidesToShow: 3
+        slidesToShow: 3,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 1
     });
 
 
