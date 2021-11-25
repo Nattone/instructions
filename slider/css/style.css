@@ -85,6 +85,9 @@ ul {
 .slider.multiple-items .slick-next {
     bottom: 0;
 }
+.slider.multiple-items .slick-next {
+    left: 80px;
+}
 .slider.multiple-items .item {
     padding: 0 20px;
 }
