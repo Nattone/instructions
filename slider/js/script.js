@@ -8,6 +8,7 @@ $(document).ready(function () {
         slidesToShow: 3,
         slidesToScroll: 1
     });
+
     $('.center').slick({
         centerMode: true,
         slidesToShow: 3,
