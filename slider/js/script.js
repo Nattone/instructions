@@ -1,6 +1,5 @@
 $(document).ready(function () {
-    $('.single-item').slick({
-    });
+    $('.single-item').slick();
 
     $('.multiple-items').slick({
         infinite: true,
@@ -23,32 +22,24 @@ $(document).ready(function () {
         ]
     });
 
-    $('.center-items').slick({
-        centerMode: true,
-        slidesToShow: 3,
-        infinite: true,
-        speed: 300,
-        slidesToShow: 1
-    });
-
     $('.center').slick({
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
         responsive: [
             {
                 breakpoint: 768,
                 settings: {
-                    arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
-                    slidesToShow: 3
+                    slidesToShow: 2
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    arrows: false,
                     centerMode: true,
                     centerPadding: '40px',
                     slidesToShow: 1
