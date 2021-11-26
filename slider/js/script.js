@@ -47,6 +47,12 @@ $(document).ready(function () {
             }
         ]
     });
+    $('.center').on('afterChange', function (event, slick, currentSlide) {
+        if (currentSlide == 2) {
+            console.log('Осуществлён переход к 3-му слайду');
+        }
+    });
+
 
 
 });
